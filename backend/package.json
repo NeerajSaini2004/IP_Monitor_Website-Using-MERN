@@ -1,0 +1,17 @@
+{
+  "name": "ip-monitor-agent",
+  "version": "1.0.0",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "dev": "nodemon monitor.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "dotenv": "^16.4.5",
+    "systeminformation": "^5.22.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
